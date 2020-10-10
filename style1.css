@@ -1,0 +1,198 @@
+.select-content {
+  border: 1px solid #e1e5e7;
+  outline: none;
+  /*去掉默认的下拉三角*/
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  /*添加下拉三角图标*/
+  background: url("imgs/task5-2_03.png") no-repeat;
+  background-position: 90% 50%;
+  background-size: 8.125px 5px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+body header {
+  height: 50px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  justify-content: center;
+  align-items: center;
+  background-color: #5fc0cd;
+}
+body header .one {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  width: 80px;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 17px;
+  color: #fff;
+  background-color: #55a8b3;
+}
+body header .two {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  width: 80px;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 17px;
+  color: #5fc0cd;
+  background-color: #fff;
+}
+body header img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: url(imgs/img.png) no-repeat;
+  height: 27.5px;
+  width: 26.25px;
+  background-position: 0 -36.875px;
+  background-size: 138.75px 93.125px;
+}
+body section {
+  display: flex;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  top: 50px;
+  left: 0;
+  height: 2.5rem;
+  background-color: #fff;
+}
+body section .one {
+  height: 40px;
+  flex: 1;
+  padding-right: 1.8rem;
+  color: #afbac0;
+  text-align-last: center;
+  border: 1px solid #e1e5e7;
+  outline: none;
+  /*去掉默认的下拉三角*/
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  /*添加下拉三角图标*/
+  background: url("imgs/task5-2_03.png") no-repeat;
+  background-position: 90% 50%;
+  background-size: 8.125px 5px;
+}
+body main {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+body main .content {
+  border-bottom: 1px solid #e1e5e7;
+  color: #999999;
+}
+body main .content .one {
+  padding: 10px 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+body main .content .one img {
+  margin-right: 8px;
+  background: url(imgs/img.png) no-repeat;
+  height: 15px;
+  width: 15px;
+  background-position: -46.875px 0;
+  background-size: 138.75px 93.125px;
+}
+body main .content .two {
+  position: relative;
+  padding-left: 2.4rem;
+  display: flex;
+  color: #000000;
+  justify-content: space-between;
+}
+body main .content .two .warning {
+  padding-right: 2rem;
+  color: #e63b0e;
+}
+body main .content .two i {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-width: 3px 3px 0 0;
+  border-color: #5fc0cd;
+  border-style: solid;
+  transform: matrix(0.5, 0.5, -0.5, 0.5, 0, 0);
+  -webkit-transform: matrix(0.5, 0.5, -0.5, 0.5, 0, 0);
+}
+body main .content .three {
+  padding: 10px 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+body main .content .three img {
+  margin-right: 8px;
+  height: 14.375px;
+  width: 11.875px;
+  background-position: -23.125px 0;
+  background: url(imgs/img.png) no-repeat;
+  background-size: 138.75px 93.125px;
+}
+body footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8fafb;
+  font-size: 12px;
+}
+body footer .footer-left {
+  height: 50px;
+  width: 50px;
+  padding-left: 80px;
+  color: #5fc0cd;
+  text-align: center;
+}
+body footer .footer-left .img-left {
+  position: relative;
+  top: 0;
+  left: 0;
+  background: url(imgs/img.png) no-repeat;
+  height: 25px;
+  width: 28.75px;
+  background-position: -36.25px -37.5px;
+  background-size: 138.75px 93.125px;
+}
+body footer .img-middle {
+  background: url(imgs/img.png) no-repeat;
+  height: 58.75px;
+  width: 58.75px;
+  background-position: -80px -34.375px;
+  background-size: 138.75px 93.125px;
+}
+body footer .footer-right {
+  height: 50px;
+  width: 50px;
+  padding-right: 80px;
+  color: #999999;
+  text-align: center;
+}
+body footer .footer-right .img-right {
+  position: relative;
+  top: 0;
+  right: 0;
+  background: url(imgs/img.png) no-repeat;
+  height: 25.625px;
+  width: 26.25px;
+  background-position: -96.25px 0;
+  background-size: 138.75px 93.125px;
+}

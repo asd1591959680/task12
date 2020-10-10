@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+body header {
+  position: relative;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #5fc0cd;
+}
+body header button {
+  content: "";
+  position: absolute;
+  top: 1.3rem;
+  left: 2rem;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-width: 0 0 2px 2px;
+  border-color: #fff;
+  border-style: solid;
+  transform: matrix(0.5, 0.5, -0.5, 0.5, 0, 0);
+  -webkit-transform: matrix(0.5, 0.5, -0.5, 0.5, 0, 0);
+  background-color: transparent;
+}
+body section {
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  background: url(imgs/1200.png) no-repeat center center;
+  background-size: cover;
+  padding: 0 1rem;
+  color: #fff;
+}
+body section img {
+  height: 89.5px;
+  width: 87px;
+}
+body section p {
+  padding-bottom: 0.7rem;
+  padding-left: 1rem;
+  margin: 0;
+  display: inline-block;
+}
+body section p:first-child {
+  font-size: 1.2rem;
+}
+body section p:nth-child(2) {
+  font-size: 1rem;
+}
+body section p:last-child {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+body section p:last-child img {
+  background: url(imgs/img.png) no-repeat center center;
+  padding-right: 0.5rem;
+  height: 15.33333333px;
+  width: 12px;
+  background-size: 148px 99.33333333px;
+  background-position: 0 0;
+}
+body content h2 {
+  margin: 0;
+  height: 4rem;
+  line-height: 4rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  border-bottom: 1px solid #e1e5e7;
+}
+body content h2::before {
+  content: "|";
+  padding-right: 0.6rem;
+  color: #5fc0cd;
+}
+body content div {
+  height: 4rem;
+  border-bottom: 1px solid #e1e5e7;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+body content div .one {
+  display: flex;
+  align-items: center;
+}
+body content div .one img {
+  background: url(imgs/img.png) no-repeat center center;
+  padding-left: 0.3rem;
+  height: 15.33333333px;
+  width: 16px;
+  background-position: -76.66666667px 0;
+  background-size: 148px 99.33333333px;
+}
+body content div div:first-child::after {
+  padding-left: 1rem;
+  content: "|";
+  color: #e1e5e7;
+}
+body content div .two {
+  color: #999999;
+}
+body content div .three {
+  color: #e26163;
+}
+body content div .four {
+  flex: 1;
+}
+body footer {
+  margin-top: 5rem;
+  padding: 0 1rem;
+  display: flex;
+}
+body footer .one {
+  flex: 1;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  width: 10rem;
+  border: 1px solid #5fc0cd;
+  border-radius: 0.4rem;
+  margin-right: 1rem;
+  background-color: transparent;
+  color: #5fc0cd;
+  font-size: 1.2rem;
+}
+body footer .two {
+  flex: 1;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  width: 10rem;
+  border: 1px solid #5fc0cd;
+  border-radius: 0.4rem;
+  background-color: #5fc0cd;
+  color: #fff;
+  font-size: 1.2rem;
+}
